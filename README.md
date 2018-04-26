@@ -13,7 +13,7 @@ oc process -n openshift  datafoundry-web | oc create -f -
 ```
 ## 4. 查看OCDFWeb pod状态
 ```
-[lixw@hack ~]$ oc get pod
+oc get pod
 NAME                               READY     STATUS    RESTARTS   AGE
 datafoundrypayment-1-5gs45         1/1       Running   0          5m
 datafoundryservicevolume-1-cdwjl   1/1       Running   0          5m
